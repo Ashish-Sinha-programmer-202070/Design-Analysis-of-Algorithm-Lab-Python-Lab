@@ -1,3 +1,5 @@
+''' Write a function which return all the unique palindromes from a given string '''
+
 # function To exapnd left and right pointers to find the longest palindrome
 def expand(s, l, r):
     len_s = len(s)
