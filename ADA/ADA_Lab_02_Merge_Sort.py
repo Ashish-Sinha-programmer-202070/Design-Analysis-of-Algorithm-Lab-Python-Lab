@@ -50,6 +50,9 @@ def printList(array):
 if __name__ == '__main__':
     array = [9, 8, 22, 14, 19, 11, 5, 32, 52, 41]
 
+    print("Unsorted array is: ")
+    printList(array)
+
     mergeSort(array)
 
     print("Sorted array is: ")
