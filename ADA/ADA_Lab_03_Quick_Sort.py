@@ -14,7 +14,7 @@ def partition(array, low, high):
     # compare each of element with pivot.
     for j in range(low, high):
      if array[j] <= pivot:
-        # if element that is smalleelement pointed by i
+        # if element that is smallelement pointed by i
         i += 1
 
     # Swap the pivot element withr than pivot is found
