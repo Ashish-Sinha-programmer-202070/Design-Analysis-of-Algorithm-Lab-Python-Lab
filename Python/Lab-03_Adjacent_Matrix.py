@@ -56,6 +56,8 @@ add_vertices("B")
 add_vertices("C")
 add_vertices("D")
 add_vertices("E")
+add_vertices("F")
+add_vertices("G")
 
 # Add  the edges between the vertices by specifying 
 # the from and to vertex along with  the edge weights.
@@ -68,6 +70,10 @@ add_edge('E','A','6')
 add_edge('A','E','9')
 add_edge('C','b','7')
 add_edge('B','D','8')
+add_edge('F','G','11')
+add_edge('G','C','13')
+add_edge('G','B','10')
+add_edge('F','D','12')
 
 Print_Graph()
 print("Internal Representation : ", graph)
